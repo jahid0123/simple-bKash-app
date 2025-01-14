@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+       BkashApp bkashApp = new BkashApp(1000);
+       bkashApp.checkPin();
     }
 }
